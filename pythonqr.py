@@ -27,13 +27,13 @@ window.title("QRCODE")
 window.configure(background="#D7BDE2")
 window.geometry("500x500")
 
-lbl1 = Label(window, text="Dönüştürmek istediğiniz yazıyı giriniz.", height=3, width=30, background="#AF7AC5", fg="white")
+lbl1 = Label(window, text="Please enter the text.", height=3, width=30, background="#AF7AC5", fg="white")
 lbl1.pack(pady=5)
 
 ent1 = Entry(window, width=40)
 ent1.pack(pady=10)
 
-button1 = Button(window, text="qrcode", command=generate_button, background="#AF7AC5", fg="white")
+button1 = Button(window, text="click", command=generate_button, background="#AF7AC5", fg="white")
 button1.pack(pady=15)
 
 button2 = Button(window, text="Exit", command=exit_button, font=("Arial"), bg="#AF7AC5", fg="white")
